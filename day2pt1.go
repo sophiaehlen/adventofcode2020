@@ -21,7 +21,6 @@ func main() {
         }
     }
     fmt.Println(validCount)
-
 }
 
 type policy struct {
@@ -56,5 +55,4 @@ func process(line string) *policy {
         letter:   letter,
         password: password,
     }
-
 }
